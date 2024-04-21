@@ -129,7 +129,7 @@
 }
 
 .text-primarygray {
-    color: #A0AEC0; /* Adjust as needed */
+    color:rgba(255, 255, 255, 0.60);; /* Adjust as needed */
 }
 
 .text-primarydark {
