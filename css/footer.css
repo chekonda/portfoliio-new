@@ -1,0 +1,89 @@
+.footer {
+    /* Other styles */
+    position: relative;
+    box-shadow: 10000px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.footer h2, .footer p {
+    margin-bottom: 20px;
+}
+
+.message-me {
+    display: inline-block;
+    background-color: #273ec3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.message-me:hover {
+    background-color: #162473;
+    cursor: pointer;
+}
+
+.foot-text {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+
+}
+
+.footer:before {
+    /* Same as before */
+}
+
+@media (max-width: 600px) {
+    .footer {
+        /* Adjust styles for small screens */
+        height: 350px;
+
+        padding: 10px;
+    }
+    .foot-para{
+        text-align: center;
+        position: relative;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .footer {
+        /* Adjust styles for medium screens */
+        height: 300px;
+
+    }
+    .foot-para{
+        margin-top: 70px;
+        text-align: center;
+        position: relative;
+        /* left: -150px; */
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        /* Adjust styles for large screens */
+        height: 300px;
+
+    }
+    .foot-para{
+        margin-top: 70px;
+        text-align: center;
+        position: relative;
+        left: -150px;
+    }
+}
+
+.footer i {
+    font-size: 1.5em;
+    color: white;
+}
+.foot-para{
+    margin-top: 70px;
+}

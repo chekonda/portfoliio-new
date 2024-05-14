@@ -20,7 +20,7 @@ nav {
     background-color: rgba(35, 35, 35, 0.9);
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 4.5rem;
+    height: 5rem;
 }
 
 nav ul {
@@ -30,6 +30,8 @@ nav ul {
     padding: 0 20px;
     margin: 0;
     margin-top: -40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav ul li {
@@ -56,20 +58,23 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color:rgba(255, 255, 255, 0.60);;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #666;
+    background-color: rgb(255, 255, 255,0.1);
+    color: white;
 }
 
 section {
     padding-top: 50px;
-    height: 600px;
+    padding-bottom: 50px; /* Add padding to ensure content doesn't stick to the edges */
     padding: 50px;
 }
+
 
 /* Responsive Styles */
 @media screen and (max-width: 760px) {
