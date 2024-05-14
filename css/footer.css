@@ -4,8 +4,18 @@
     box-shadow: 10000px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px; 
+    background-image: url('https://framerusercontent.com/images/hREJN8AsFEbJPz6GtPdzL1hLkvc.png');
+    background-position: top; /* Make the background image start from the bottom */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(39, 62, 195, 0.3);  /* Give the background a glassy opacity */
 }
+
+
+/* Rest of your CSS code */
+
+
 
 .footer h2, .footer p {
     margin-bottom: 20px;
