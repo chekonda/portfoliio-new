@@ -62,7 +62,13 @@
         margin-top: 70px;
         text-align: center;
         position: relative;
-        /* left: -150px; */
+        align-content: center;
+    }
+    .foot-text{
+        position: relative;
+        align-content: center;
+        text-align: center;
+
     }
 }
 
@@ -76,7 +82,13 @@
         margin-top: 70px;
         text-align: center;
         position: relative;
-        left: -150px;
+        align-content: center;
+    }
+    .foot-text{
+        position: relative;
+        align-content: center;
+        text-align: center;
+
     }
 }
 
